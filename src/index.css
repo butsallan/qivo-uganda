@@ -51,7 +51,10 @@
 }
 
 .text-gradient-pink {
-  @apply bg-gradient-pink bg-clip-text text-transparent;
+  background: linear-gradient(135deg, var(--color-brand-pink), var(--color-brand-light));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 .pink-glow {
